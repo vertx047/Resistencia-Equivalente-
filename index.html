@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo a Passo - Resistência Equivalente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menunav">
+            <ul className="menu">
+                <li><a href="lobby.html">Home</a></li>
+                <li><a href="Info.html">Info</a></li>
+                <li><a href="https://google.com" target="_blank">Ajuda</a></li>
+              </ul>
+        </nav>
+    </header>
+<br>
+    <main class="container">
+        <h1>Determinação da Resistência Equivalente</h1>
+        <h2>Circuito 1</h2>
+        <img src="img/circuito1.png" alt="Circuito 1">
+        <div class="steps2">
+            <a href="#Circ1">Resolução</a>
+            <br>
+            <ol>
+                <li><a href="#1.1">Identificar os resistores em série</a></li>
+                <li><a href="#1.2">Calcular os resistores em série</a></li>
+                <li><a href="#1.3">Calcular os resistores em paralelo</a></li>
+                <li><a href="#1.4">Determinar a resistência equivalente do circuito</a></li>
+            </ol>
+        </div>
+        <h2>Circuito 2</h2>
+        <img src="img/circuito2.png" alt="Circuito 2">
+        <div class="steps2">
+            <a href="#Circ2">Resolução</a>
+            <br>
+            <ol>
+                <li><a href="#2.1">Identificar os resistores em série</a></li>
+                <li><a href="#2.2">Calcular os resistores em série</a></li>
+                <li><a href="#2.3">Calcular os resitores em paralelo</a></li>
+                <li><a href="#2.4">Calcular os resistores em série sobrando</a></li>
+                <li><a href="#2.5">Determinar a resistência equivalente do circuito</a></li>
+            </ol>
+        </div>
+    </main> 
+    <br>
+
+    <section class="container">
+        <h2 id="Circ1">Resolução do Circuito 1</h2>
+        <h3 id="1.1"><mark>Etapa 1</mark> <em>(Identificar os resistores em série)</em></h3>
+        <img src="img/circuito1.1.png" alt="">
+        <p>
+            <strong>Vemos que 10 e 20 estão em série entre si e 5 e 8 estão em série com o bloco central e o 25.</strong>
+        </p>
+        <h3 id="1.2"><mark>Etapa 2</mark> <em>(Calcular os resistores em série)</em></h3>
+        <img src="img/circuito1.2.png" alt="">
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em série possíveis e obtemos o valor de 30.</strong>
+        </p>
+        <h3 id="1.3"><mark>Etapa 3</mark> <em>(Calcular os resistores em paralelo)</em></h3>
+        <img src="img/circuito1.3.png" alt="">
+
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em paralelo possíveis e obtemos o valor de 12.</strong>
+            <img src="img/frac2.png" alt="">
+
+        </p>
+        <h3 id="1.4"><mark>Etapa 4</mark> <em>(Determinar a resistência equivalente do circuito)</em></h3>
+        <img src="img/circuito1.4.png" alt="">
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em série possíveis e obtemos o valor de 12,5Ω.</strong>
+        </p>
+        <img src="img/frac1.png" alt="">
+    </section>
+
+    <br>
+
+    <section class="container">
+        <h2 id="Circ2">Resolução do Circuito 2</h2>
+        <h3 id="2.1"><mark>Etapa 1</mark> <em>(Identificar os resistores em série)</em></h3>
+        <img src="img/circuito2.1.png" alt="">
+        <p>
+            <strong>Vemos que os números de amarelo estão em série entre si e os números azuis também estão em série entre si.</strong>
+        </p>
+        <h3 id="2.2"><mark>Etapa 2</mark> <em>(Calcular os resistores em série)</em></h3>
+        <img src="img/circuito2.2.png" alt="">
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em série possíveis e obtemos o valor de 40.</strong>
+        </p>
+        <h3 id="2.3"><mark>Etapa 3</mark> <em>(Calcular os resistores em paralelo)</em></h3>
+        <img src="img/circuito2.3.png" alt="">
+
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em paralelo possíveis e obtemos o valor de 20.</strong>
+            <img src="img/frac3.png" alt="">
+
+        </p>
+        <h3 id="2.4"><mark>Etapa 4</mark> <em>(Calcular os resistores em série sobrando)</em></h3>
+        <img src="img/circuito2.4.png" alt="">
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em série possíveis e obtemos o valor de 40.</strong>
+        </p>
+        <h3 id="2.5"><mark>Etapa 5</mark> <em>(Calcular os resistores em paralelo sobrando)</em></h3>
+        <img src="img/circuito2.5.png" alt="">
+        <p>
+            <strong>Calculamos a resistência equivalente dos resistores em paralelo possíveis e obtemos o valor de 20Ω.</strong>
+            <img src="img/frac3.png" alt="">
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Determinação da Resistência Equivalente. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
